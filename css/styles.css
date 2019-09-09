@@ -1,0 +1,283 @@
+.navbar-inverse{
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+body {
+    background-color:whitesmoke;
+}
+
+nav a {
+    color: white;
+}
+
+/* Carousel */
+
+.carousel-caption {
+    padding-top: 0px;
+    font-size: 2em;
+}
+
+.carousel-caption h3{
+    padding-top: 0px;
+    display: inline;
+    font-size: 2em;
+}
+
+.carousel-caption h3, .carousel-caption p {
+    position: relative;
+    bottom: 200px;
+    text-shadow: #070707 2px 2px 10px;
+}
+
+.carousel-caption img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 3em;
+}
+
+.carousel-caption button {
+    background-color: #f27830;
+    margin-bottom: 10px;
+}
+
+button a{
+    color: white;
+}
+
+.item>img {
+    width: 100%;
+    height: auto;
+    /* height: 50%;
+    width: auto; */
+}
+
+/* Our Story */
+
+.whitespace {
+    height: 200px;
+}
+.our-story {
+    display: block;
+    padding-top: 1em;
+}
+
+.our-story h1 {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 5em;
+    color: #f27830;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.our-story h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 0px;
+}
+
+.our-story p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin: 20px, 0px, 5px, 0px;
+}
+
+.year {
+    font-size: 200px;
+    opacity: .2;
+    display: inline;
+    z-index: -2;
+    position: absolute;
+    font-family: 'Playfair Display';
+    text-align: center;
+}
+
+.our-story h2, h1 {
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 4em;
+    color: #f27830;
+    text-shadow: 2px 2px 5px black;
+}
+
+.jumbotron p {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+    font-weight: 200;
+}
+
+.jumbotron {
+    margin-top: 2em;
+    margin-bottom: 0px;
+    background-image: url(/img/food_review.jpg);
+    border-top: 4px solid rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron .box {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+    width: 60%;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.menu .col-md-10 {
+    background-color: transparent;
+    border: 1px solid grey;
+}
+
+.menu {
+    background-image: url(/img/black_linen.png);
+
+}
+
+.menu h1 {
+    color: white;
+    font-family: 'Lobster';
+    font-size: 5em;
+    margin: 30px 0px 0px 0px;
+    border: none;
+    background: transparent;
+    margin-bottom: none;
+    position: relative;
+    top: 11px;
+
+}
+.col-line {
+    margin-top: none;
+    height: 8px;
+    width: 100%;
+    background-color: #070707;
+    border: 1px solid #3d3c3c;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.tab-content, .menu nav, .tab-content .col-md-3 {
+    background-color: white;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    color: #f27830;
+    cursor: default;
+    background-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221) rgb(221, 221, 221) transparent;
+    border-image: initial;
+}
+.nav-tabs li a {
+    text-align: center;
+    color: #f27830;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 1em;
+    text-transform: capitalize;
+}
+
+.clearbox {
+    height: 100px;
+    background-color: transparent;
+}
+
+.footer {
+    background-color: #f8512f;
+    color: white;
+}
+
+.footer h1 {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 600;
+}
+
+.form {
+    border: white solid 1px;
+}
+
+.nav-tabs li {
+    width: 25%;
+}
+
+.footer form {
+    margin-top: 1em;
+    padding: 1em;
+    border: 1px solid white;
+    background-color: #ff6633;
+}
+
+.footer address {
+    margin-top: 1em;
+    color: white;
+}
+
+.footer address, iframe {
+    margin-left: 3em;
+}
+
+.footer {
+    background-color: #f8512f;
+    padding-bottom: 3em;
+}
+
+footer h1 {
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    font-size: 4em;
+}
+
+footer p {
+    text-align: left;
+    color: white;
+    padding-right: 10em;
+    font-size: 1 em;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+label {
+    color: white;
+}
+
+address span {
+    font-weight: bold;
+}
+
+.btn {
+color: black;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+form span {
+    text-align: center;
+    display: block;
+}
+
+.required {
+    color: blue;
+    display: inline;
+    font-size: 1.4em;
+}
